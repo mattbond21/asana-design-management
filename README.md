@@ -1,6 +1,3 @@
-# asana.design
-Asana has a bold, audacious mission: we want to make teamwork effortless, smart, and beautiful for every team. Our design team of brand, and product designers are at the heart of that mission.
-
 ## Dependencies
 
 - Ruby 2.4 (easily installed by rbenv)
@@ -17,4 +14,3 @@ When making changes or contributions, create a branch from `develop` and make su
 ## Who to talk to about this?
 
 - Matt Bond
-- Devin J
