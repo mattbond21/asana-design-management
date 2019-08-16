@@ -16,7 +16,7 @@ html {
     font-size: 16px;
     line-height: 1.5;
     font-family: Gordita, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background: $white;
+    background: $gray-1;
     text-rendering: optimizeLegibility;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -348,7 +348,7 @@ th:last-child {
   vertical-align: top;
   text-align: left;
   width: 100%;
-  height: 440px;
+  height: 380px;
   margin: 10px 0;
   border-radius: 3px;
   white-space: normal;
@@ -366,7 +366,7 @@ th:last-child {
 }
 
 .card-top {
-  height: 260px;
+  height: 200px;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
   background: $gray-2;
@@ -426,8 +426,33 @@ th:last-child {
 
 /* Card details */
 
-.card-future-work {
-  background: $white url('../images/articles/future-of-work.png') center center no-repeat;
+.card-getting-started {
+  background: $lightGreen url('../images/articles/future-of-work.png') center center no-repeat;
+  background-size: 600px;
+}
+
+.card-dynamic-leadership {
+  background: $lightGold url('../images/articles/future-of-work.png') center center no-repeat;
+  background-size: 600px;
+}
+
+.card-art-of-delegation {
+  background: $lightCoral url('../images/articles/future-of-work.png') center center no-repeat;
+  background-size: 600px;
+}
+
+.card-design-excellence {
+  background: $lightPurple url('../images/articles/future-of-work.png') center center no-repeat;
+  background-size: 600px;
+}
+
+.card-coaching-creatives {
+  background: $lightBlue url('../images/articles/future-of-work.png') center center no-repeat;
+  background-size: 600px;
+}
+
+.card-career-development {
+  background: $lightGreen url('../images/articles/future-of-work.png') center center no-repeat;
   background-size: 600px;
 }
 
