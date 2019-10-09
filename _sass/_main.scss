@@ -157,9 +157,18 @@ h4, .h4 {
  color: $gray-9;
 }
 h5, .h5 {
- font-size: 18px;
+ font-size: 16px;
  font-weight: 500;
  color: $gray-9;
+ margin-bottom: 5px;
+}
+h6, .h6 {
+ font-size: 14px;
+ font-weight: 600;
+ color: $gray-9;
+ letter-spacing: 1px;
+ text-transform: uppercase;
+ margin-bottom: 5px;
 }
 
 a,
@@ -174,8 +183,8 @@ a:hover {
 
 .logo {
   margin: 40px 0px;
-  width: 195px;
-  height: 30px;
+  width: 92px;
+  height: 24px;
 }
 
 .logo > a,
@@ -194,6 +203,13 @@ h1.title {
   height: 2px;
   display: block;
   margin: 64px auto;
+}
+
+.plus-icon {
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  color: $gray-6;
 }
 
 
@@ -441,19 +457,37 @@ th:last-child {
 /* Card details */
 
 .card-getting-started {
-  background: $gray-1 url('../images/covers/cover-green.png') center center no-repeat;
+  background: $gray-1 url('../images/covers/cover-asana-1.png') center center no-repeat;
   background-size: 310px;
 }
 
 .card-dynamic-leadership {
-  background: $gray-1 url('../images/covers/cover-purple.png') center center no-repeat;
+  background: $gray-1 url('../images/covers/cover-asana-2.png') center center no-repeat;
   background-size: 310px;
 }
 
 .card-art-of-delegation {
-  background: $gray-1 url('../images/covers/cover-blue.png') center center no-repeat;
+  background: $gray-1 url('../images/covers/cover-asana-3.png') center center no-repeat;
   background-size: 310px;
 }
+
+
+
+// OLD STRIPE CARDS
+// .card-getting-started {
+//   background: $gray-1 url('../images/covers/cover-green.png') center center no-repeat;
+//   background-size: 310px;
+// }
+//
+// .card-dynamic-leadership {
+//   background: $gray-1 url('../images/covers/cover-purple.png') center center no-repeat;
+//   background-size: 310px;
+// }
+//
+// .card-art-of-delegation {
+//   background: $gray-1 url('../images/covers/cover-blue.png') center center no-repeat;
+//   background-size: 310px;
+// }
 
 .card-design-excellence {
   background: $gray-1 url('../images/covers/cover-navy.png') center center no-repeat;
@@ -723,7 +757,7 @@ span.quote-attribute {
 
   .logo {
     margin: 20px 0;
-    width: 150px;
+    width: 92px;
   }
 
   #main-section {
