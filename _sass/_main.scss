@@ -152,7 +152,7 @@ h3, .h3 {
  color: $gray-9;
 }
 h4, .h4 {
- font-size: 22px;
+ font-size: 20px;
  font-weight: 400;
  color: $gray-9;
 }
@@ -190,10 +190,10 @@ h1.title {
 
 .hr {
   background: $gray-3;
-  width: 50px;
+  width: 100px;
   height: 2px;
   display: block;
-  margin: 24px auto;
+  margin: 64px auto;
 }
 
 
@@ -234,6 +234,7 @@ small,
 }
 
 
+
 /* Lists
  ------------------------- */
 
@@ -272,7 +273,7 @@ span.numbers {
   border-radius: 100px;
   width: 22px;
   height: 22px;
-  color: $gray-6;
+  color: $gray-7;
   display: inline-block;
   margin-right: 10px;
   text-align: center;
@@ -365,6 +366,7 @@ th {
   border: none;
   padding: 12px 8px;
   text-align: left;
+  font-size: 16px;
 }
 th {
   vertical-align: top;
@@ -439,32 +441,32 @@ th:last-child {
 /* Card details */
 
 .card-getting-started {
-  background: $lightGreen url('../images/covers/cover-green.png') center center no-repeat;
+  background: $gray-1 url('../images/covers/cover-green.png') center center no-repeat;
   background-size: 310px;
 }
 
 .card-dynamic-leadership {
-  background: $lightGold url('../images/covers/cover-purple.png') center center no-repeat;
+  background: $gray-1 url('../images/covers/cover-purple.png') center center no-repeat;
   background-size: 310px;
 }
 
 .card-art-of-delegation {
-  background: $lightCoral url('../images/covers/cover-blue.png') center center no-repeat;
+  background: $gray-1 url('../images/covers/cover-blue.png') center center no-repeat;
   background-size: 310px;
 }
 
 .card-design-excellence {
-  background: $lightPurple url('../images/covers/cover-navy.png') center center no-repeat;
+  background: $gray-1 url('../images/covers/cover-navy.png') center center no-repeat;
   background-size: 310px;
 }
 
 .card-coaching-creatives {
-  background: $lightBlue url('../images/covers/cover-pink.png') center center no-repeat;
+  background: $gray-1 url('../images/covers/cover-pink.png') center center no-repeat;
   background-size: 310px;
 }
 
 .card-career-development {
-  background: $lightGreen url('../images/covers/cover-dark-green.png') center center no-repeat;
+  background: $gray-1 url('../images/covers/cover-dark-green.png') center center no-repeat;
   background-size: 310px;
 }
 
@@ -500,6 +502,28 @@ h1.home {
   margin-top: 72px;
 }
 
+blockquote {
+  font-size: 28px;
+  line-height: 36px;
+  color: $gray-9;
+  font-style: italic;
+  margin: 64px 10px;
+}
+
+span.quote-glyph {
+  font-family: Georgia;
+  color: $gray-4;
+  font-size: 80px;
+  position: relative;
+  top: 20px;
+}
+
+span.quote-attribute {
+  font-size: 16px;
+  margin-left: 40px;
+  position: relative;
+  color: $gray-7;
+}
 
 /* ==========================================================================
    Helper classes
