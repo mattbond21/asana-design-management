@@ -507,7 +507,7 @@ blockquote {
   line-height: 36px;
   color: $gray-9;
   font-style: italic;
-  margin: 64px 10px;
+  margin: 24px 20px 64px 48px;
 }
 
 span.quote-glyph {
@@ -515,12 +515,13 @@ span.quote-glyph {
   color: $gray-4;
   font-size: 80px;
   position: relative;
-  top: 20px;
+  top: 48px;
+  left: -40px;
+  display: inline-block;
 }
 
 span.quote-attribute {
   font-size: 16px;
-  margin-left: 40px;
   position: relative;
   color: $gray-7;
 }
